@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.SysUserMapper" >
+  <resultMap id="BaseResultMap" type="model.SysUser" >
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="ORG_ID" property="org_id" jdbcType="TINYINT" />
+    <result column="CLIENT_ID" property="client_id" jdbcType="TINYINT" />
+    <result column="UserName" property="userName" jdbcType="VARCHAR" />
+    <result column="Password" property="password" jdbcType="VARCHAR" />
+    <result column="REAL_NAME" property="realName" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="VARCHAR" />
+    <result column="EMAIL" property="email" jdbcType="VARCHAR" />
+    <result column="PHONE" property="phone" jdbcType="VARCHAR" />
+    <result column="MOBILE" property="mobile" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="description" jdbcType="VARCHAR" />
+    <result column="ISACTIVE" property="isActive" jdbcType="CHAR" />
+    <result column="CREATED" property="created" jdbcType="TIMESTAMP" />
+    <result column="CREATEBY" property="createby" jdbcType="TINYINT" />
+    <result column="UPDATED" property="updated" jdbcType="TIMESTAMP" />
+    <result column="UPDATEBY" property="updateby" jdbcType="TINYINT" />
+    <result column="REMOVE" property="remove" jdbcType="CHAR" />
+    <result column="DATAFILTER" property="datafilter" jdbcType="VARCHAR" />
+    <result column="theme" property="theme" jdbcType="VARCHAR" />
+    <result column="defaultpage" property="defaultpage" jdbcType="VARCHAR" />
+    <result column="logoimage" property="logoimage" jdbcType="VARCHAR" />
+    <result column="qqopenid" property="qqopenid" jdbcType="VARCHAR" />
+    <result column="appversion" property="appversion" jdbcType="CHAR" />
+    <result column="jsonauth" property="jsonauth" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+ID, ORG_ID, CLIENT_ID, UserName, Password, REAL_NAME, SEX, EMAIL, PHONE, MOBILE, DESCRIPTION, ISACTIVE, CREATED, CREATEBY, UPDATED, UPDATEBY, REMOVE, DATAFILTER, theme, defaultpage, logoimage, qqopenid, appversion, jsonauth
+  </sql>
+  <select id="selectBySysUsername" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select
+    <include refid="Base_Column_List" />
+    from sys_user
+    where UserName=#{username}
+  </select>
+</mapper>

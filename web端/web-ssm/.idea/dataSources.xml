@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="my_forum@localhost" uuid="e9bb74f3-e991-414e-9739-c87065c6ae9d">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/my_forum</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="zeroDateTimeBehavior" value="convertToNull" />
+        <property name="tinyInt1isBit" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="yearIsDateType" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="IntelligentCare@cdb-n3kku4ro.bj.tencentcdb.com" uuid="28cbfb11-7397-444e-ad16-927ac1e918ea">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://cdb-n3kku4ro.bj.tencentcdb.com:10189/IntelligentCare</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="cdb-n3kku4ro.bj.tencentcdb.com:10189" uuid="ceb92429-487c-4b00-a7a3-c7a423725669">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>cdb-n3kku4ro.bj.tencentcdb.com:10189</jdbc-url>
+    </data-source>
+  </component>
+</project>
