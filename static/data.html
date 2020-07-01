@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>layout 后台大布局 - Layui</title>
+  <link rel="stylesheet" href="css/layui/css/layui.css">
+</head>
+<body class="layui-layout-body">
+<div class="layui-layout layui-layout-admin">
+  <div class="layui-header">
+    <div class="layui-logo">老人看护系统</div>
+    <!-- 头部区域（可配合layui已有的水平导航） -->
+    
+    <ul class="layui-nav layui-layout-right">
+      <li class="layui-nav-item">
+    <a href="">新提醒<span class="layui-badge-dot"></span></a>
+	  </li>
+	  <li class="layui-nav-item">
+		<a href="">新邮件<span class="layui-badge-dot"></span></a>
+	  </li>
+	 <li class="layui-nav-item" lay-unselect="">
+    <a href="javascript:;"><img src="images/face/1.gif" class="layui-nav-img">我</a>
+    <dl class="layui-nav-child">
+      <dd><a href="javascript:;">修改信息</a></dd>
+      <dd><a href="javascript:;">安全管理</a></dd>
+      <dd><a href="javascript:;">退了</a></dd>
+    </dl>
+  </li>
+    </ul>
+  </div>
+  
+  <div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+      <!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+      <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+        <li class="layui-nav-item ">
+          <a class="" href="javascript:;">系统设置模块</a>
+          <dl class="layui-nav-child">
+            <dd><a href="admin.html">系统管理员信息</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item  "><a href="javascript:;">老年人信息管理</a>
+		<dl class="layui-nav-child">
+            <dd><a href="old.html">老人信息</a></dd>
+			<dd><a href="old.html">老人信息统计分析</a></dd>
+          </dl>
+        </li>
+        <li class="layui-nav-item " ><a href="javascript:;">工作人员信息管理</a>
+		<dl class="layui-nav-child">
+            <dd><a href="employee.html">工作人员信息</a></dd>
+			<dd><a href="employee.html">工作人员信息统计分析</a></dd>
+          </dl>
+		</li>
+			
+        <li class="layui-nav-item layui-nav-itemed"><a href="javascript:;">义工信息管理</a>
+		<dl class="layui-nav-child">
+            <dd><a href="volunteer.html">义工信息</a></dd>
+			<dd><a href="volunteer.html">义工信息统计分析</a></dd>
+          </dl></li>
+		<li class="layui-nav-item"><a href="data.html">数据管理</a></li>
+		<li class="layui-nav-item"><a href="camera.html">摄像头管理</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="layui-body">
+  实时报表
+  </div>
+  <div class="layui-footer">
+    <!-- 底部固定区域 -->
+    © layui.com - 底部固定区域
+  </div>
+</div>
+<script src="js/layui/layui.js"></script>
+<script>
+//JavaScript代码区域
+layui.use('element', function(){
+  var element = layui.element;
+  
+});
+</script>
+
+</body>
+</html>
+      
