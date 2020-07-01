@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.OldMapper" >
+  <resultMap id="BaseResultMap" type="model.Employee" >
+    <id column="ID" property="id" jdbcType="INTEGER" />
+    <result column="ORG_ID" property="org_id" jdbcType="INTEGER" />
+    <result column="CLIENT_ID" property="client_id" jdbcType="INTEGER" />
+    <result column="username" property="userName" jdbcType="VARCHAR" />
+    <result column="gender" property="gender" jdbcType="CHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="id_card" property="id_card" jdbcType="VARCHAR" />
+    <result column="birthday" property="birthday" jdbcType="TIMESTAMP" />
+    <result column="checkin_date" property="checkin_date" jdbcType="TIMESTAMP" />
+    <result column="checkout_date" property="checkout_date" jdbcType="TIMESTAMP" />
+    <result column="imgset_dir" property="imgset_dir" jdbcType="VARCHAR" />
+    <result column="profile_photo" property="profile_photo" jdbcType="VARCHAR" />
+    <result column="firstguardian_name" property="firstguardian_name" jdbcType="VARCHAR" />
+    <result column="firstguardian_relationship" property="firstguardian_relationship" jdbcType="VARCHAR" />
+    <result column="firstguardian_phone" property="firstguardian_phone" jdbcType="VARCHAR" />
+    <result column="firstguardian_wechat" property="firstguardian_wechat" jdbcType="VARCHAR" />
+    <result column="secondguardian_name" property="secondguardian_name" jdbcType="VARCHAR" />
+    <result column="secondguardian_relationship" property="secondguardian_relationship" jdbcType="VARCHAR" />
+    <result column="secondguardian_phone" property="secondguardian_phone" jdbcType="VARCHAR" />
+    <result column="secondguardian_wechat" property="secondguardian_wechat" jdbcType="VARCHAR" />
+    <result column="health_state" property="health_state" jdbcType="VARCHAR" />
+    <result column="DESCRIPTION" property="DESCRIPTION" jdbcType="VARCHAR" />
+    <result column="ISACTIVE" property="isActive" jdbcType="CHAR" />
+    <result column="CREATED" property="created" jdbcType="TIMESTAMP" />
+    <result column="CREATEBY" property="createby" jdbcType="TINYINT" />
+    <result column="UPDATED" property="updated" jdbcType="TIMESTAMP" />
+    <result column="UPDATEBY" property="updateby" jdbcType="TINYINT" />
+    <result column="REMOVE" property="remove" jdbcType="CHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+ID, ORG_ID, CLIENT_ID, username, gender, phone, id_card, birthday, checkin_date, checkout_date, imgset_dir, profile_photo, room_number, firstguardian_name, firstguardian_relationship, firstguardian_phone, firstguardian_wechat, secondguardian_name, secondguardian_relationship, secondguardian_phone, secondguardian_wechat, health_state, DESCRIPTION, ISACTIVE, CREATED, CREATEBY, UPDATED, UPDATEBY, REMOVE,
+
+ </sql>
+
+</mapper>

@@ -4,4 +4,6 @@ import model.SysUser;
 
 public interface SysUserMapper {
     SysUser selectBySysUsername(String username);
+
+    void register(SysUser sysUser);
 }

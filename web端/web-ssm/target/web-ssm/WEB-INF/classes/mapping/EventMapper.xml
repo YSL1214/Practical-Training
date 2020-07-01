@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dao.EventMapper" >
+  <resultMap id="BaseResultMap" type="model.Event" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="event_type" property="event_type" jdbcType="INTEGER" />
+    <result column="event_date" property="event_date" jdbcType="TIMESTAMP" />
+    <result column="event_location" property="event_location" jdbcType="VARCHAR" />
+    <result column="event_desc" property="event_desc" jdbcType="VARCHAR" />
+    <result column="oldperson_id" property="oldid" jdbcType="INTEGER" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+id, event_type, event_date, event_location, event_desc, oldperson_id
+  </sql>
+</mapper>

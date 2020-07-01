@@ -19,9 +19,66 @@
     </div>
     <div class="layui-side layui-bg-black">
         <div class="layui-side-scroll">
-            <ul class="layui-nav layui-nav-tree"  lay-filter="test">
-                <li class="layui-nav-item"><a href="">侧边栏导航</a></li>
+            <ul class="layui-nav layui-nav-tree layui-inline" style="margin-right: 10px;" lay-filter="demo">
+                <li class="layui-nav-item">
+                    <a href="javascript:;">系统设置模块</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="javascript:;">选项一</a></dd>
+                        <dd><a href="javascript:;">选项二</a></dd>
+                        <dd><a href="javascript:;">选项三</a></dd>
+                        <dd><a href="">跳转项</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">老年人信息管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">信息录入</a></dd>
+                        <dd><a href="">信息修改</a></dd>
+                        <dd><a href="">信息查询</a></dd>
+                        <dd><a href="">信息删除</a></dd>
+                        <dd><a href="">信息统计</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">工作人员信息管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">信息录入</a></dd>
+                        <dd><a href="">信息修改</a></dd>
+                        <dd><a href="">信息查询</a></dd>
+                        <dd><a href="">信息删除</a></dd>
+                        <dd><a href="">信息统计</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">义工信息管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">信息录入</a></dd>
+                        <dd><a href="">信息修改</a></dd>
+                        <dd><a href="">信息查询</a></dd>
+                        <dd><a href="">信息删除</a></dd>
+                        <dd><a href="">信息统计</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">数据管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">信息录入</a></dd>
+                        <dd><a href="">信息修改</a></dd>
+                        <dd><a href="">信息查询</a></dd>
+                        <dd><a href="">信息删除</a></dd>
+                        <dd><a href="">信息统计</a></dd>
+                    </dl>
+                </li>
+                <li class="layui-nav-item">
+                    <a href="javascript:;">摄像头管理</a>
+                    <dl class="layui-nav-child">
+                        <dd><a href="">摄像头001</a></dd>
+                        <dd><a href="">摄像头002</a></dd>
+                    </dl>
+                </li>
             </ul>
+
+
         </div>
     </div>
     <div class="layui-body">

@@ -3,8 +3,8 @@
 <mapper namespace="dao.SysUserMapper" >
   <resultMap id="BaseResultMap" type="model.SysUser" >
     <id column="ID" property="id" jdbcType="INTEGER" />
-    <result column="ORG_ID" property="org_id" jdbcType="TINYINT" />
-    <result column="CLIENT_ID" property="client_id" jdbcType="TINYINT" />
+    <result column="ORG_ID" property="org_id" jdbcType="INTEGER" />
+    <result column="CLIENT_ID" property="client_id" jdbcType="INTEGER" />
     <result column="UserName" property="userName" jdbcType="VARCHAR" />
     <result column="Password" property="password" jdbcType="VARCHAR" />
     <result column="REAL_NAME" property="realName" jdbcType="VARCHAR" />
@@ -36,4 +36,48 @@ ID, ORG_ID, CLIENT_ID, UserName, Password, REAL_NAME, SEX, EMAIL, PHONE, MOBILE,
     from sys_user
     where UserName=#{username}
   </select>
+
+  <insert id="register" parameterType="model.SysUser" >
+    insert into sys_user
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="org_id != null" >
+        ORG_ID,
+      </if>
+      <if test="client_id != null" >
+        CLIENT_ID,
+      </if>
+      <if test="userName != null" >
+        UserName,
+      </if>
+      <if test="password != null" >
+        Password,
+      </if>
+      <if test="email != null" >
+        EMAIL,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="org_id != null" >
+        #{org_id,jdbcType=INTEGER},
+      </if>
+      <if test="client_id != null" >
+        #{client_id,jdbcType=INTEGER},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null" >
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
 </mapper>

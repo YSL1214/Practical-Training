@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Maxci
-  Date: 2018/7/1
-  Time: 10:53
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <link rel="stylesheet" href="../../statics/css/layui.css">
@@ -44,7 +37,7 @@
     <div class="layui-form-item">
         <label class="layui-form-label">邮箱:</label>
         <div class="layui-input-inline">
-            <input type="text" name="title"  required lay-verify="email" placeholder="" autocomplete="off" class="layui-input">
+            <input type="text" name="email"   id="email" required lay-verify="email" placeholder="" autocomplete="off" class="layui-input">
         </div>
     </div>
     <div class="layui-form-item">
@@ -56,7 +49,6 @@
 </form>
 </div>
 
-<%@include file="footer.jsp"%>
 </body>
 <script>
     layui.use(['jquery', 'layer'], function() {

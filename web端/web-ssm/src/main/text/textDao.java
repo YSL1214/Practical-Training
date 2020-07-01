@@ -38,6 +38,7 @@ public class textDao {
         System.out.println(sysUserMapper.selectBySysUsername("admin").getPassword());
         System.out.println(sysUserService.findSysUserByName("admin").getPassword());
     System.out.println(sysUserService.checkLogin("admin","admin"));
+    sysUserService.register("test","test","123@qq.com");
     }
 //
 //    @Test
