@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title>layout 后台大布局 - Layui</title>
   <link rel="stylesheet" href="css/layui/css/layui.css">
+  <script src="css/layui/css/mudules/layer/layer.js"></script>
 </head>
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
@@ -73,32 +74,45 @@
   <button class="layui-btn" data-type="isAll">验证是否全选</button>
 </div>-->
  
-<table class="layui-table" lay-data="{width: 1302, height:600,url:'' , page:true, id:'oldTable'}" lay-filter="demo">
-  <thead>
-    <tr>
-      <th lay-data="{type:'checkbox', fixed: 'left'}"></th>
-      <th lay-data="{field:'id', width:80, sort: true, fixed: true}">ID</th>
-      <th lay-data="{field:'username', width:100}">老人姓名</th>
-	  <th lay-data="{field:'phone', width:80}">电话</th>
-      <th lay-data="{field:'gender', width:80}">性别</th>
-      <th lay-data="{field:'age', width:80, sort: true}">年龄</th>
-      <th lay-data="{type:'datetime', field:'checkin_date', width:160}">入养老院日期</th>
-      <th lay-data="{type:'datetime',field:'checkout_date', width:160}">离开养老院日期</th>
-      
-      <th lay-data="{field:'firstguardian_name', width:180}">第一监护人姓名</th>
-      <th lay-data="{field:'firstguardian_relationship', width:180, }">与第一监护人关系</th>
-	  <th lay-data="{field:'firstguardian_phone', width:180}">第一监护人电话</th>
-      <th lay-data="{field:'firstguardian_wechat', width:180, }">与第一监护人微信</th>
-	  <th lay-data="{field:'secondguardian_name', width:180}">第二监护人姓名</th>
-      <th lay-data="{field:'secondguardian_relationship', width:180, }">与第二监护人关系</th>
-	  <th lay-data="{field:'secondguardian_phone', width:180}">第二监护人电话</th>
-      <th lay-data="{field:'secondguardian_wechat', width:180, }">与第二监护人微信</th>
-	  <th lay-data="{field:'health_state', width:180, }">健康状况</th>
-	  <th lay-data="{field:'DESCRIPTION', width:180, }">描述</th>
-      <th lay-data="{fixed: 'right', width:178, align:'center', toolbar: '#barDemo'}"></th>
-    </tr>
-  </thead>
-</table>
+
+	<section>
+        <div class="layui-tab layui-tab-brief" lay-filter="demo" lay-allowclose="true">
+          <div class="layui-tab-content" style="height: 100px;">
+            <div class="layui-tab-item layui-show">
+              <div class="layui-form-item">
+                <button type="submit" class="layui-btn layui-btn-sm layui-btn-normal" id="add">新增账号</button>
+				
+              </div>
+				<table class="layui-table" lay-data="{width: 1302, height:600,url:'' , id:'oldTable'}" lay-filter="demo">
+				  <thead>
+					<tr>
+					  <th lay-data="{type:'checkbox', fixed: 'left'}"></th>
+					  <th lay-data="{field:'id', width:80, sort: true, fixed: true}">ID</th>
+					  <th lay-data="{field:'username', width:100}">老人姓名</th>
+					  <th lay-data="{field:'phone', width:80}">电话</th>
+					  <th lay-data="{field:'gender', width:80}">性别</th>
+					  <th lay-data="{field:'age', width:80, sort: true}">年龄</th>
+					  <th lay-data="{type:'datetime', field:'checkin_date', width:160}">入养老院日期</th>
+					  <th lay-data="{type:'datetime',field:'checkout_date', width:160}">离开养老院日期</th>
+					  
+					  <th lay-data="{field:'firstguardian_name', width:180}">第一监护人姓名</th>
+					  <th lay-data="{field:'firstguardian_relationship', width:180, }">与第一监护人关系</th>
+					  <th lay-data="{field:'firstguardian_phone', width:180}">第一监护人电话</th>
+					  <th lay-data="{field:'firstguardian_wechat', width:180, }">与第一监护人微信</th>
+					  <th lay-data="{field:'secondguardian_name', width:180}">第二监护人姓名</th>
+					  <th lay-data="{field:'secondguardian_relationship', width:180, }">与第二监护人关系</th>
+					  <th lay-data="{field:'secondguardian_phone', width:180}">第二监护人电话</th>
+					  <th lay-data="{field:'secondguardian_wechat', width:180, }">与第二监护人微信</th>
+					  <th lay-data="{field:'health_state', width:180, }">健康状况</th>
+					  <th lay-data="{field:'DESCRIPTION', width:180, }">描述</th>
+					  <th lay-data="{fixed: 'right', width:178, align:'center', toolbar: '#barDemo'}"></th>
+					</tr>
+				  </thead>
+				</table>
+            </div>
+          </div>
+        </div>
+    </section>
  
 <script type="text/html" id="barDemo">
   <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
@@ -122,13 +136,111 @@ layui.use('element', function(){
   
 });
 </script>
+<!-- 权限分配子页面 -->
+
+
+<script type="text/template" id="html2">
+  <form class = "layui-form" action="">
+    <div class="layui-form">
+      <fieldSet>
+        <div class="layui-form-item">
+
+          <div class="layui-inline">
+            <label class="layui-form-label">账户ID</label>
+            <div class="layui-input-inline">
+              <input type="text" id="id" autocomplete="off" placeholder="请输入标题" class="layui-input" readonly>
+            </div>
+          </div>
+
+          <div class="layui-inline">
+            <label class="layui-form-label">账户名称</label>
+            <div class="layui-input-inline">
+              <input type="text" id="name" autocomplete="off" placeholder="请输入标题" class="layui-input" readonly>
+            </div>
+          </div>
+			<div class="layui-inline">
+            <label class="layui-form-label">账户密码</label>
+            <div class="layui-input-inline">
+              <input type="text" id="label" autocomplete="off" placeholder="请输入标题" class="layui-input" readonly>
+            </div>
+          </div>
+			
+		<div class="layui-form-item">
+          <label class="layui-form-label"></label>
+          <div class="layui-input-block" id="input1">
+              <button id="config" type="button" class="layui-btn layui-btn-normal">确认</button>
+              <button type="button" class="layui-btn" >返回</button>
+          </div>
+		</div>
+
+         
+
+          
+
+          
+
+          
+      </fieldSet>
+    </div>
+  </form>
+</script>
+
+ <script type="text/template" id="html1">
+  <form class="layui-form layui-form-pane" action="">
+  <div class="layui-form-item ">
+    <label class="layui-form-label">ID</label>
+    <div class="layui-input-block">
+      <input id="id" type="text" name="id" autocomplete="off" placeholder="请输入标题" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">姓名</label>
+    <div class="layui-input-block">
+      <input id="name"type="text" name="name" autocomplete="off" placeholder="请输入标题" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">电话</label>
+    <div class="layui-input-block">
+      <input id="name"type="text" name="name" autocomplete="off" placeholder="请输入标题" class="layui-input">
+    </div>
+  </div>
+  
+  <div class="layui-form-item" pane="">
+    <label class="layui-form-label">性别</label>
+    <div class="layui-input-block">
+      <input type="radio" name="sex" value="男" title="男" checked="">
+      <input type="radio" name="sex" value="女" title="女">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <div class="layui-inline">
+      <label class="layui-form-label">入院日期</label>
+      <div class="layui-input-inline">
+        <input type="text" class="layui-input" id="date2" placeholder="yyyy-MM-dd">
+      </div>
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <button class="layui-btn" lay-submit="" lay-filter="demo2">跳转式提交</button>
+  </div>
+</form>
+
+
+</script>
 <script>
-layui.use('table', function(){
+layui.use(['table','form', 'layedit', 'laydate'], function(){
   var table = layui.table;
   //监听表格复选框选择
   table.on('checkbox(demo)', function(obj){
     console.log(obj)
   });
+  var laydate = layui.laydate;
+  
+  //常规用法
+  
+
+  
   //监听工具条
   table.on('tool(demo)', function(obj){
     var data = obj.data;
@@ -165,6 +277,30 @@ layui.use('table', function(){
     var type = $(this).data('type');
     active[type] ? active[type].call(this) : '';
   });
+  var html1 = document.getElementById('html1').innerHTML
+  $("#add").click(function () {
+	
+      layer.open({
+		id:"addhtml",
+        type: 1,
+        title: "新增账号",
+        content: html1,
+        area:['600px','400px']
+      });
+
+      var form = layui.form;
+          form.render();
+
+      layui.use(['transfer', 'layer', 'util'], function(){
+      var $ = layui.$
+      ,transfer = layui.transfer
+      ,layer = layui.layer
+      ,util = layui.util; })   
+  laydate.render({
+    elem: '#date2',
+	type: 'datetime'
+  });
+    })
 });
 </script>
 </body>
