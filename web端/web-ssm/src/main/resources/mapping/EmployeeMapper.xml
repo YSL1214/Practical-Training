@@ -6,16 +6,16 @@
     <result column="ORG_ID" property="org_id" jdbcType="INTEGER" />
     <result column="CLIENT_ID" property="client_id" jdbcType="INTEGER" />
     <result column="username" property="userName" jdbcType="VARCHAR" />
-    <result column="gender" property="gender" jdbcType="CHAR" />
+    <result column="gender" property="gender" jdbcType="VARCHAR" />
     <result column="phone" property="phone" jdbcType="VARCHAR" />
     <result column="id_card" property="id_card" jdbcType="VARCHAR" />
-    <result column="birthday" property="birthday" jdbcType="TIMESTAMP" />
+    <result column="age" property="age" jdbcType="INTEGER" />
     <result column="hire_date" property="hire_date" jdbcType="TIMESTAMP" />
     <result column="resign_date" property="resign_date" jdbcType="TIMESTAMP" />
     <result column="imgset_dir" property="imgset_dir" jdbcType="VARCHAR" />
     <result column="profile_photo" property="profile_photo" jdbcType="VARCHAR" />
     <result column="DESCRIPTION" property="DESCRIPTION" jdbcType="VARCHAR" />
-    <result column="ISACTIVE" property="isActive" jdbcType="CHAR" />
+    <result column="ISACTIVE" property="ISACTIVE" jdbcType="CHAR" />
     <result column="CREATED" property="created" jdbcType="TIMESTAMP" />
     <result column="CREATEBY" property="createby" jdbcType="TINYINT" />
     <result column="UPDATED" property="updated" jdbcType="TIMESTAMP" />
@@ -25,5 +25,111 @@
   <sql id="Base_Column_List" >
 id, ORG_ID, CLIENT_ID, username, gender, phone, id_card, birthday, hire_date, resign_date, imgset_dir, profile_photo, DESCRIPTION, ISACTIVE, CREATED, CREATEBY, UPDATED, UPDATEBY, REMOVE
   </sql>
+
+  <select id="selectEmployeeInfo" resultMap="BaseResultMap">
+    SELECT ID,username,phone,age,gender,DESCRIPTION
+    FROM employee_info
+  </select>
+
+
+  <select id="getSelectIDEmployee" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    *
+    from employee_info
+    where ID = #{id,jdbcType=INTEGER}
+  </select>
+
+  <insert id="addemployee" parameterType="model.Employee" >
+    insert into employee_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="org_id != null" >
+        ORG_ID,
+      </if>
+      <if test="client_id != null" >
+        CLIENT_ID,
+      </if>
+      <if test="userName != null" >
+        username,
+      </if>
+      <if test="gender != null" >
+        gender,
+      </if>
+      <if test="age != null" >
+        age,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="DESCRIPTION != null" >
+        DESCRIPTION,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="org_id != null" >
+        #{org_id,jdbcType=INTEGER},
+      </if>
+      <if test="client_id != null" >
+        #{client_id,jdbcType=INTEGER},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null" >
+        #{age,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="DESCRIPTION != null" >
+        #{DESCRIPTION,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <delete id="deleteSelectIdEmployee" parameterType="java.lang.Integer" >
+    delete from employee_info
+    where ID = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <update id="updateImg" parameterType="model.Employee" >
+    update employee_info
+    <set >
+      <if test="imgset_dir != null" >
+        imgset_dir = #{imgset_dir,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=INTEGER}
+  </update>
+
+
+  <update id="updateEmployee" parameterType="model.Employee" >
+    update employee_info
+    <set >
+      <if test="userName != null" >
+        username=#{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        gender=#{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null" >
+        age=#{age,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        phone=#{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="DESCRIPTION != null" >
+        DESCRIPTION= #{DESCRIPTION,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
 
 </mapper>

@@ -9,9 +9,10 @@ public interface SysUserService {
     SysUser findSysUserByName(String username);
     //注册
     void register(String username, String password,String email);
-
+    //通过ID查找用户
     SysUser selectByUserId(int id);
-
+    //更新照片
     void updateAddressOfPic(int userId,String address);
-
+    //更新用户信息
+    void updateSysUserInfo(SysUser sysUser);
 }

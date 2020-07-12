@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web-ssm:war" />
+      <artifact name="web-ssm:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec0fd87e-8cef-43fc-b9bd-07075e6d258e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/ssm.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/ssm.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/SysUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/SysUserServiceI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/impl/SysUserServiceI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/text/textDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/text/textDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dao/SysUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dao/SysUserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapping/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/SysUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/SysUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/SysUserServiceI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/impl/SysUserServiceI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/todo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/textDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-ssm.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-ssm.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-ssm/WEB-INF/classes/mapping/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-ssm/WEB-INF/classes/mapping/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/web-ssm/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/web-ssm/WEB-INF/jsp/register.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="ec0fd87e-8cef-43fc-b9bd-07075e6d258e" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +27,607 @@
     <select />
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="web-ssm" />
+    <favorites_list name="web-ssm">
+      <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/Mysqlx.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxSql.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxCrud.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxExpr.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxCursor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxExpect.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxNotice.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/package-info.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxPrepare.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxDatatypes.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxResultset.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/x/protobuf/MysqlxConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/Log.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/LogFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/NullLogger.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/Jdk14Logger.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/Slf4JLogger.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/ProfilerEvent.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/StandardLogger.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/BaseMetricsHolder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/ProfilerEventImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/ProfilerEventHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/log/LoggingProfilerEventHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/SingleConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/XDevApiConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/FailoverConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/LoadBalanceConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/ReplicationConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/XDevApiDnsSrvConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/FailoverDnsSrvConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/LoadBalanceDnsSrvConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/url/ReplicationDnsSrvConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/HostInfo.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/PropertyKey.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/PropertySet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/EnumProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/LongProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/ConnectionUrl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/HostsListView.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/StringProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/BooleanProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/IntegerProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/RuntimeProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/DefaultPropertySet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/MemorySizeProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/PropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/ConnectionUrlParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/PropertyDefinitions.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/DatabaseUrlContainer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/EnumPropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/LongPropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/AbstractRuntimeProperty.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/StringPropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/BooleanPropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/IntegerPropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/AbstractPropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/MemorySizePropertyDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/conf/ConnectionPropertiesTransform.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/BalanceStrategy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/RandomBalanceStrategy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/ReplicationConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/LoadBalancedConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/ServerAffinityStrategy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/FailoverConnectionProxy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/MultiHostConnectionProxy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/MultiHostMySQLConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/SequentialBalanceStrategy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/ReplicationConnectionGroup.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/ReplicationConnectionProxy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/ReplicationMySQLConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/LoadBalanceExceptionChecker.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/LoadBalancedConnectionProxy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/LoadBalancedMySQLConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/NdbLoadBalanceExceptionChecker.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/BestResponseTimeBalanceStrategy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/LoadBalancedAutoCommitInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/ReplicationConnectionGroupManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ha/StandardLoadBalanceExceptionChecker.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/jmx" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/jmx/ReplicationGroupManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/jmx/ReplicationGroupManagerMBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/util" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/util/BaseBugReport.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/admin" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/admin/MiniAdmin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/admin/TimezoneDump.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/ResultSetImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/ResultSetFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/ResultSetMetaData.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/UpdatableResultSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/CachedResultSetMetaData.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/ResultSetInternalMethods.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/result/CachedResultSetMetaDataImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/Blob.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/Clob.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/SQLError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/NotUpdatable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/MysqlDataTruncation.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/MySQLTimeoutException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/PacketTooBigException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/CommunicationsException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/MySQLQueryInterruptedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/OperationNotSupportedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/MySQLStatementCancelledException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/MySQLTransactionRollbackException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/exceptions/ConnectionFeatureNotAvailableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/NClob.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/integration" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/integration/c3p0" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/integration/c3p0/MysqlConnectionTester.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/integration/jboss" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/integration/jboss/MysqlValidConnectionChecker.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/Driver.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/interceptors" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/interceptors/ResultSetScannerInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/interceptors/ServerStatusDiffInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/interceptors/SessionAssociationInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/interceptors/ConnectionLifecycleInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlXid.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlSQLXML.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/WrapperBase.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/IterateBlock.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/JdbcStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/StatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ConnectionImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/JdbcConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlSavepoint.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/BlobFromLocator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ConnectionGroup.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/EscapeProcessor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/JdbcPropertySet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlDataSource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/DatabaseMetaData.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlXAException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/StatementWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/CallableStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ConnectionWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlXAConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlXADataSource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ParameterBindings.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ClientInfoProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/JdbcPropertySetImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ClientInfoProviderSP.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/NonRegisteringDriver.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/EscapeProcessorResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/JdbcPreparedStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlPooledConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ParameterBindingsImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ConnectionGroupManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlDataSourceFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlParameterMetadata.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ClientPreparedStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/ServerPreparedStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/SuspendableXAConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/CallableStatementWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/PreparedStatementWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/CommentClientInfoProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/MysqlConnectionPoolDataSource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/DatabaseMetaDataUsingInfoSchema.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/jdbc/AbandonedConnectionCleanupThread.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/Util.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/DnsSrv.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/LRUCache.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/LogUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/TimeUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/TestUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/LazyString.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/StringUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/DataTypeUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/Base64Decoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/EscapeTokenizer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/SequentialIdLease.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/TimeZoneMapping.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/util/PerVmServerConfigCacheFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/admin" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/admin/ServerController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/Row.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/Field.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/RowList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/ValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/BufferedRowList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/ByteValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/LongValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/FloatValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/ShortValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/DoubleValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/StringValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/BooleanValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/DefaultValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/IntegerValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/SqlDateValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/SqlTimeValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/LocalDateValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/LocalTimeValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/BigDecimalValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/DefaultColumnDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/BinaryStreamValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/SqlTimestampValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/LocalDateTimeValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/AbstractNumericValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/result/AbstractDateTimeValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Row.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Type.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DbDoc.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Table.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Client.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Column.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Result.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Schema.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RowImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Session.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Warning.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ExprUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AddResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DbDocImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DocResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/JsonArray.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/JsonValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RowResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Statement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/TableImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ClientImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Collection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ColumnImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ExprParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/Expression.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/JsonNumber.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/JsonParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/JsonString.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RowFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SchemaImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateSpec.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateType.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/FetchResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/JsonLiteral.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SessionImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/WarningImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AddStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DbDocFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ExprUnparser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/FilterParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/InsertParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/InsertResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/XDevAPIError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/package-info.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AddResultImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ClientFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DocResultImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/FindStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RowResultImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/CollectionImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DatabaseObject.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SessionFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlMultiResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DeleteStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DocFilterParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/InsertStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ModifyStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RemoveStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SelectStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlSingleResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlUpdateResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AddResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AddStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DocResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/InsertResultImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RowResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SqlStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/CreateIndexParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DbDocValueFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/FindStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/TableFilterParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AbstractDataResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DeleteStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/FilterableStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/InsertResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/InsertStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/ModifyStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/PreparableStatement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/RemoveStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/SelectStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/UpdateStatementImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/AbstractFilterParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/DatabaseObjectDescription.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/StreamingDocResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/StreamingRowResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/xdevapi/StreamingSqlResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/OkPacket.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/ByteArrayRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/TextBufferRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/BinaryBufferRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/NativeResultset.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/AbstractBufferRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/ResultsetRowsCursor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/ResultsetRowsStatic.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/AbstractResultsetRows.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/result/ResultsetRowsStreaming.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/authentication" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/authentication/Sha256PasswordPlugin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/authentication/MysqlOldPasswordPlugin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/authentication/MysqlClearPasswordPlugin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/authentication/CachingSha2PasswordPlugin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                    <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/authentication/MysqlNativePasswordPlugin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeProtocol.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/PacketSplitter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/TextRowFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeConstants.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/BinaryRowFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/ResultsetFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/MultiPacketReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/AbstractRowFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeCapabilities.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativePacketHeader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/ResultsetRowReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/SimplePacketReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/SimplePacketSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativePacketPayload.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeServerSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/TextResultsetReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/TracingPacketReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/TracingPacketSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeMessageBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/BinaryResultsetReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/CompressedInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/MysqlTextValueDecoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/ColumnDefinitionReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/CompressedPacketSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeSocketConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/ColumnDefinitionFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/MysqlBinaryValueDecoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/TimeTrackingPacketReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/TimeTrackingPacketSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/DebugBufferingPacketReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/DebugBufferingPacketSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/NativeAuthenticationProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/a/MergingColumnDefinitionFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/Ok.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/Notice.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XMessage.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/OkBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/OkFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XProtocol.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/FieldFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XProtocolRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/NoticeFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XMessageHeader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XProtocolError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XServerSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/CompressionMode.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/FetchDoneEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XMessageBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/MessageConstants.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XProtocolDecoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/SyncMessageReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/SyncMessageSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/AsyncMessageReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/AsyncMessageSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/StatementExecuteOk.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/ConfinedInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/ReusableInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XProtocolRowFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XServerCapabilities.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/CompressionAlgorithm.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/FetchDoneMoreResults.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/ReusableOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/ResultMessageListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/ContinuousOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/FetchDoneEntityFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XAsyncSocketConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XAuthenticationProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XProtocolRowInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/XpluginStatementCommand.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/CompressorStreamsFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/StatementExecuteOkBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/StatementExecuteOkFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/FetchDoneMoreResultsFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/SyncFlushDeflaterOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/CompressionSplittedInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/ErrorToFutureCompletionHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/x/CompressionSplittedOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/result" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/result/AbstractResultsetRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/Message.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/Warning.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/Protocol.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/Security.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/Resultset.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/InternalDate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/InternalTime.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ResultsetRow.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ValueDecoder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/MessageHeader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/MessageReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/MessageSender.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ResultBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ResultsetRows.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ServerSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/SocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/WriterWatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ProtocolEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ResultStreamer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/SocketMetadata.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/MessageListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/WatchableStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/WatchableWriter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/AbstractProtocol.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ColumnDefinition.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ExportControlled.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/NetworkResources.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/SocketConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/InternalTimestamp.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/AsyncSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ResultsetRowsOwner.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ServerCapabilities.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/FullReadInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/OutputStreamWatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/AuthenticationPlugin.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/PacketSentTimeHolder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ProtocolEntityReader.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ReadAheadInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/ProtocolEntityFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/StandardSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/WatchableOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/AuthenticationProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/NamedPipeSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/SerializingBufferWriter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/SocksProxySocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/AbstractSocketConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/PacketReceivedTimeHolder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/protocol/TlsAsynchronousSocketChannel.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/CJException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/RSAException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/ExceptionFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/NumberOutOfRange.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/DataReadException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/MysqlErrorNumbers.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/CJTimeoutException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/SSLParamsException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/StreamingNotifiable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/ExceptionInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/WrongArgumentException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/CJPacketTooBigException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/DataConversionException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/DataTruncationException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/AssertionFailedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/PasswordExpiredException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/UnableToConnectException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/CJCommunicationsException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/ExceptionInterceptorChain.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/StatementIsClosedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/ConnectionIsClosedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/OperationCancelledException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/FeatureNotAvailableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/DeadlockTimeoutRollbackMarker.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/PropertyNotModifiableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/CJOperationNotSupportedException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/ClosedOnExpiredPasswordException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/InvalidConnectionAttributeException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/UnsupportedConnectionStringException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/exceptions/CJConnectionFeatureNotAvailableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/Query.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/interceptors" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/interceptors/QueryInterceptor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/Session.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/Messages.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/fullDebug.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/3-0-Compat.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/coldFusion.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/clusterBase.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/maxPerformance.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/maxPerformance-8-0.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/configurations/solarisMaxPerformance.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/BindValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/Collation.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/Constants.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/MysqlType.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ParseInfo.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/PingTarget.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/CoreSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/QueryResult.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/SimpleQuery.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/BatchVisitor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/CacheAdapter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/MysqlCharset.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/AbstractQuery.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/MysqlxSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/NativeSession.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/PreparedQuery.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/QueryBindings.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ServerVersion.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/CharsetMapping.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/MessageBuilder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/CancelQueryTask.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/MysqlConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/WarningListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/TlsSettings.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/DataStoreMetadata.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/CacheAdapterFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/CancelQueryTaskImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ClientPreparedQuery.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ServerPreparedQuery.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/LicenseConfiguration.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/AbstractPreparedQuery.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/AbstractQueryBindings.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/AppendingBatchVisitor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/DataStoreMetadataImpl.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/NoSubInterceptorWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/PerConnectionLRUFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/TransactionEventHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ClientPreparedQueryBindings.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/LocalizedErrorMessages.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ServerPreparedQueryBindings.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ClientPreparedQueryBindValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ServerPreparedQueryBindValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/cj/ServerPreparedQueryTestcaseGenerator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/jdbc" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/jdbc/Driver.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/jdbc/SocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/com/mysql/jdbc/SocketFactoryWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/README" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/LICENSE" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/INFO_BIN" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/INFO_SRC" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/services" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/services/java.sql.Driver" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/INDEX.LIST" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://F:/下载/mysql-connector-java-8.0.20/mysql-connector-java-8.0.20.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,14 +635,21 @@
         <option value="HTML File" />
         <option value="Kotlin Interface" />
         <option value="JavaScript File" />
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="F:" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\zht\Desktop\web\web端\web-ssm\.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -94,10 +682,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15384616" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -107,17 +695,18 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="service" />
       <recent name="controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\web3\web-ssm\src\main\webapp\WEB-INF\jsp" />
+      <recent name="F:\web3\web-ssm\src\main\java\model" />
+      <recent name="C:\Users\zht\Desktop\web\web端\web-ssm\src\main\webapp\userPic" />
       <recent name="C:\Users\zht\Desktop\web\web端\web-ssm\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\zht\Desktop\web\web端\web-ssm\src\main\resources\mapping" />
-      <recent name="C:\Users\zht\Desktop\web\web-ssm\src\main\resources\mapping" />
-      <recent name="C:\Users\Maxci\Desktop\res\web-ssm\src\main\webapp\userPic" />
-      <recent name="C:\Users\Maxci\Desktop\res\web-ssm\src\main\resources\userPic" />
+      <recent name="C:\Users\zht\Desktop\web\web端\web-ssm\src\main\java\service\impl" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Unnamed">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.31">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -163,22 +752,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textService.recentUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="textService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-ssm" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="textService" />
-      <option name="METHOD_NAME" value="recentUser" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="textService.removeTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="textService.recentUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web-ssm" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="textService" />
-      <option name="METHOD_NAME" value="removeTopic" />
+      <option name="METHOD_NAME" value="recentUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -219,20 +807,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/user/login" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="HOT_SWAP_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="web-ssm:war">
+        <artifact name="web-ssm:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web-ssm" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web-ssm_5" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -240,7 +826,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53049" />
+        <option name="DEBUG_PORT" value="60276" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -290,26 +876,26 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="web-ssm:war" />
+          <artifact name="web-ssm:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.textService.removeTopic" />
       <item itemvalue="JUnit.textDao.TestDate" />
       <item itemvalue="JUnit.textService.recentUser" />
       <item itemvalue="JUnit.textDao.sdsd" />
       <item itemvalue="JUnit.textDao" />
+      <item itemvalue="JUnit.textService" />
       <item itemvalue="Maven.generator" />
-      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.31" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.textService" />
         <item itemvalue="JUnit.textDao" />
         <item itemvalue="JUnit.textDao.sdsd" />
         <item itemvalue="JUnit.textService.recentUser" />
         <item itemvalue="JUnit.textDao.TestDate" />
-        <item itemvalue="JUnit.textService.removeTopic" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +913,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -403,167 +989,161 @@
       <workItem from="1593484844806" duration="11608000" />
       <workItem from="1593508836139" duration="57000" />
       <workItem from="1593568976988" duration="10553000" />
+      <workItem from="1593671816124" duration="7546000" />
+      <workItem from="1593741361465" duration="17406000" />
+      <workItem from="1593834298566" duration="16728000" />
+      <workItem from="1593859221519" duration="37000" />
+      <workItem from="1593860325275" duration="1351000" />
+      <workItem from="1593909309953" duration="15088000" />
+      <workItem from="1593967040274" duration="1095000" />
+      <workItem from="1593995755176" duration="20679000" />
+      <workItem from="1594083142358" duration="11994000" />
+      <workItem from="1594173966128" duration="11959000" />
+      <workItem from="1594288733373" duration="5170000" />
+      <workItem from="1594300997236" duration="46642000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="F:" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593592600883">
+    <state x="361" y="71" key="#Inspections" timestamp="1594371478507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593592600883" />
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1593583840017">
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1594371478507" />
+    <state x="361" y="71" key="#Template_Data_Languages" timestamp="1594373617850">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593583840017" />
+    <state x="361" y="71" key="#Template_Data_Languages/0.0.1536.824@0.0.1536.824" timestamp="1594373617850" />
+    <state x="269" y="84" key="#Tomcat_Server" timestamp="1594288802095">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="269" y="84" key="#Tomcat_Server/0.0.1536.824@0.0.1536.824" timestamp="1594288802095" />
+    <state x="132" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594288804927">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="132" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594288804927" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1594370695426">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1594370695426" />
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1593412363288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="620" y="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1593412363288" />
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593501544941">
+    <state x="580" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1593761872488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593501544941" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1593594780778">
+    <state x="580" y="328" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1536.824@0.0.1536.824" timestamp="1593761872488" />
+    <state x="622" y="124" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1594299632573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593594780778" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1593594780778">
+    <state x="622" y="124" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299632573" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593855581818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593594780778" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1593594780777">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593855581818" />
+    <state x="546" y="128" key="DetectedRootsChooserDialog" timestamp="1594299631214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593594780777" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1593594780778">
+    <state x="546" y="128" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1594299631214" />
+    <state x="521" y="169" key="FileChooserDialogImpl" timestamp="1594302785240">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593594780778" />
-    <state width="1129" height="296" key="GridCell.Tab.1.bottom" timestamp="1593594780763">
+    <state x="521" y="169" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594302785240" />
+    <state width="1129" height="193" key="GridCell.Tab.0.bottom" timestamp="1594448460529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593594780763" />
-    <state width="1129" height="296" key="GridCell.Tab.1.center" timestamp="1593594780763">
+    <state width="1129" height="193" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594448460529" />
+    <state width="1129" height="193" key="GridCell.Tab.0.center" timestamp="1594448460529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593594780763" />
-    <state width="1129" height="296" key="GridCell.Tab.1.left" timestamp="1593594780762">
+    <state width="1129" height="193" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594448460529" />
+    <state width="1129" height="193" key="GridCell.Tab.0.left" timestamp="1594448460529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593594780762" />
-    <state width="1129" height="296" key="GridCell.Tab.1.right" timestamp="1593594780763">
+    <state width="1129" height="193" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594448460529" />
+    <state width="1129" height="193" key="GridCell.Tab.0.right" timestamp="1594448460529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593594780763" />
-    <state width="1129" height="296" key="GridCell.Tab.2.bottom" timestamp="1593594780764">
+    <state width="1129" height="193" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594448460529" />
+    <state width="1129" height="193" key="GridCell.Tab.1.bottom" timestamp="1594448460530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593594780764" />
-    <state width="1129" height="296" key="GridCell.Tab.2.center" timestamp="1593594780764">
+    <state width="1129" height="193" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.1.center" timestamp="1594448460530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1593594780764" />
-    <state width="1129" height="296" key="GridCell.Tab.2.left" timestamp="1593594780763">
+    <state width="1129" height="193" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.1.left" timestamp="1594448460529">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1593594780763" />
-    <state width="1129" height="296" key="GridCell.Tab.2.right" timestamp="1593594780764">
+    <state width="1129" height="193" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1594448460529" />
+    <state width="1129" height="193" key="GridCell.Tab.1.right" timestamp="1594448460530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1129" height="296" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1593594780764" />
+    <state width="1129" height="193" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.2.bottom" timestamp="1594448460530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.2.center" timestamp="1594448460530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.2.left" timestamp="1594448460530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.2.right" timestamp="1594448460530">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1594448460530" />
+    <state width="1129" height="193" key="GridCell.Tab.3.bottom" timestamp="1594448460465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594448460465" />
+    <state width="1129" height="193" key="GridCell.Tab.3.center" timestamp="1594448460465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1594448460465" />
+    <state width="1129" height="193" key="GridCell.Tab.3.left" timestamp="1594448460465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1594448460465" />
+    <state width="1129" height="193" key="GridCell.Tab.3.right" timestamp="1594448460465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1129" height="193" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1594448460465" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1593484721207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="212" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1593484721207" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1593508837053">
+    <state x="272" y="0" key="SettingsEditor" timestamp="1594302795554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593508837053" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1593592909955">
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594302795554" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1594301002772">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593592909955" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>web-ssm:war exploded</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>html5shiv</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>9.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>web-ssm</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594301002772" />
+    <state x="511" y="35" key="refactoring.ChangeSignatureDialog" timestamp="1594015951130">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="35" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1594015951130" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1593835925195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593835925195" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594086570713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594086570713" />
   </component>
 </project>

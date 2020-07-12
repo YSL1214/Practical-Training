@@ -5,16 +5,13 @@
 
 <header class="layui-header">
     <ul class="layui-nav" >
+        <c:if test="${empty user}">
         <li class="layui-nav-item layui-this layui-unselect" id="a"><a href="">老人看护系统</a></li>
-<%--        <li class="layui-nav-item">--%>
-<%--            <a href="javascript:;">帮助</a>--%>
-<%--            <dl class="layui-nav-child"> <!-- 二级菜单 -->--%>
-<%--                <dd><a href="">隐私和版权</a></dd>--%>
-<%--                <dd><a href="">积分相关</a></dd>--%>
-<%--                <dd><a href="">向我反馈</a></dd>--%>
-<%--            </dl>--%>
-<%--        </li>--%>
-        <%--判断用户是否登录--%>
+        </c:if>
+        <c:if test="${!empty user}">
+            <li class="layui-nav-item layui-this layui-unselect" id="a"><a href="/">老人看护系统</a></li>
+        </c:if>
+
         <c:if test="${empty user}">
             <li class="layui-nav-item" style="float: right"><a href="/user/register">注册</a></li>
             <li class="layui-nav-item" style="float: right"><a href="/user/login">

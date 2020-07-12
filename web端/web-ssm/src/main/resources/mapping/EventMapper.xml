@@ -12,4 +12,21 @@
   <sql id="Base_Column_List" >
 id, event_type, event_date, event_location, event_desc, oldperson_id
   </sql>
+
+  <select id="selectEventInfo" resultMap="BaseResultMap">
+    SELECT id,event_type,event_date,event_location,event_desc,oldperson_id
+    FROM event_info order by event_date Desc
+  </select>
+
+  <select id="getSelectIDEvent" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    *
+    from event_info
+    where ID = #{id,jdbcType=INTEGER}
+  </select>
+
+  <delete id="deleteSelectIdEvent" parameterType="java.lang.Integer" >
+    delete from event_info
+    where ID = #{id,jdbcType=INTEGER}
+  </delete>
 </mapper>

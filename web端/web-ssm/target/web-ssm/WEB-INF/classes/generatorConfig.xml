@@ -9,9 +9,9 @@
         </commentGenerator>
         <!-- 数据库链接URL、用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/my_forum?useUnicode=true"
+                        connectionURL="jdbc:cdb-n3kku4ro.bj.tencentcdb.com:10189/IntelligentCare?useUnicode=true"
                         userId="root"
-                        password="course">
+                        password="xxq123456!">
         </jdbcConnection>
         <javaTypeResolver>
             <property name="forceBigDecimals" value="false" />

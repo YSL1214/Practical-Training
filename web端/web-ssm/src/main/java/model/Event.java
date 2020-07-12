@@ -2,6 +2,8 @@ package model;
 
 import java.util.Date;
 
+
+
 public class Event {
     private int id;
     private int event_type;
@@ -9,6 +11,8 @@ public class Event {
     private String event_location;
     private String event_desc;
     private int oldid;
+
+
 
     public int getId() {
         return id;
@@ -57,4 +61,6 @@ public class Event {
     public void setOldid(int oldid) {
         this.oldid = oldid;
     }
+
+
 }

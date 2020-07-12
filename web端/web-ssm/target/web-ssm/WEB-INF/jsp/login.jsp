@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Maxci
-  Date: 2018/7/1
-  Time: 10:51
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page isELIgnored="false" %>
@@ -17,30 +11,43 @@
 </head>
 <body>
 <%@include file="header.jsp"%>
+<div style="width: 80%;height: 60%;margin: 0 auto;">
+    <div style="width: 80%; height: 20%"></div>
+    <div class="layui-row">
+        <div class="layui-col-xs12 layui-col-md8">
+            <img src="/userPic/denglu.jpg" alt="aa" style="width:100%;height: 70%">
+        </div>
+        <div class="layui-col-xs6 layui-col-md4">
+            <div class="layui-card">
+                <div class="layui-card-header">登陆</div>
+                <div class="layui-card-body">
+                    <form class="layui-form" action="/loginSuccess" method="post">
 
-<div style="width: 500px;height: 600px;margin: 0 auto;">
-    <div style="width: 500px; height: 200px"></div>
-    <form class="layui-form" action="/loginSuccess" method="post">
-        <div class="layui-form-item">
-            <label class="layui-form-label">用户名:</label>
-            <div class="layui-input-inline">
-                <input type="text" name="username" id="username" required  lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">用户名:</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="username" id="username" required  lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                            </div>
+                            <div id="checkUN" class="layui-form-mid layui-word-aux"></div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">密码:</label>
+                            <div class="layui-input-block">
+                                <input type="password" name="password" id="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" id="submit" lay-submit lay-filter="formDemo">登录</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div id="checkUN" class="layui-form-mid layui-word-aux"></div>
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">密码:</label>
-            <div class="layui-input-inline">
-                <input type="password" name="password" id="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <div class="layui-input-block">
-                <button class="layui-btn" id="submit" lay-submit lay-filter="formDemo">登录</button>
-                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
-            </div>
-        </div>
-    </form>
+    </div>
+
 </div>
 </body>
 <script>

@@ -6,10 +6,10 @@ public class Old {
     private int org_id;
     private int client_id;
     private String userName;
-    private char gender;
+    private String gender;
     private String phone;
     private String id_card;
-    private Date birthday;
+    private int age;
     private Date checkin_date;
     private Date checkout_date;
     private String imgset_dir;
@@ -19,6 +19,10 @@ public class Old {
     private String firstguardian_relationship;
     private String firstguardian_phone;
     private String firstguardian_wechat;
+    private String secondguardian_name;
+    private String secondguardian_relationship;
+    private String secondguardian_phone;
+    private String secondguardian_wechat;
     private String health_state;
     private String DESCRIPTION;
     private char ISACTIVE;
@@ -27,6 +31,14 @@ public class Old {
     private Date updated;
     private int updateby;
     private char remove;
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
 
     public int getId() {
         return id;
@@ -60,11 +72,11 @@ public class Old {
         this.userName = userName;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
@@ -82,14 +94,6 @@ public class Old {
 
     public void setId_card(String id_card) {
         this.id_card = id_card;
-    }
-
-    public Date getBirthday() {
-        return birthday;
-    }
-
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
     }
 
     public Date getCheckin_date() {
@@ -227,5 +231,38 @@ public class Old {
     public void setRemove(char remove) {
         this.remove = remove;
     }
+
+    public String getSecondguardian_name() {
+        return secondguardian_name;
+    }
+
+    public void setSecondguardian_name(String secondguardian_name) {
+        this.secondguardian_name = secondguardian_name;
+    }
+
+    public String getSecondguardian_relationship() {
+        return secondguardian_relationship;
+    }
+
+    public void setSecondguardian_relationship(String secondguardian_relationship) {
+        this.secondguardian_relationship = secondguardian_relationship;
+    }
+
+    public String getSecondguardian_phone() {
+        return secondguardian_phone;
+    }
+
+    public void setSecondguardian_phone(String secondguardian_phone) {
+        this.secondguardian_phone = secondguardian_phone;
+    }
+
+    public String getSecondguardian_wechat() {
+        return secondguardian_wechat;
+    }
+
+    public void setSecondguardian_wechat(String secondguardian_wechat) {
+        this.secondguardian_wechat = secondguardian_wechat;
+    }
+
 
 }

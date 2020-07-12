@@ -40,11 +40,20 @@ public class SysUserServiceI implements SysUserService {
 
     @Override
     public SysUser selectByUserId(int id) {
-        return null;
+        return sysUserMapper.selectBySysUserID(id);
     }
 
     @Override
     public void updateAddressOfPic(int userId, String address) {
+        SysUser sysUser = new SysUser();
+        sysUser.setId(userId);
+        sysUser.setLogoimage(address);
+        sysUserMapper.updateLogo(sysUser);
 
+    }
+
+    @Override
+    public void updateSysUserInfo(SysUser sysUser) {
+        sysUserMapper.updateInfo(sysUser);
     }
 }

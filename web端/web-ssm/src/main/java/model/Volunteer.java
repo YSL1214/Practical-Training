@@ -7,10 +7,10 @@ public class Volunteer {
     private int org_id;
     private int client_id;
     private String userName;
-    private char gender;
+    private String gender;
     private String phone;
     private String id_card;
-    private Date birthday;
+    private int age;
     private Date checkin_date;
     private Date checkout_date;
     private String imgset_dir;
@@ -55,11 +55,11 @@ public class Volunteer {
         this.userName = userName;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
@@ -79,12 +79,12 @@ public class Volunteer {
         this.id_card = id_card;
     }
 
-    public Date getBirthday() {
-        return birthday;
+    public int getAge() {
+        return age;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday = birthday;
+    public void setAge(int age) {
+        this.age = age;
     }
 
     public Date getCheckin_date() {

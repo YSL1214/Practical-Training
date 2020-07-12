@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="dao.OldMapper" >
-  <resultMap id="BaseResultMap" type="model.Employee" >
+  <resultMap id="BaseResultMap" type="model.Old" >
     <id column="ID" property="id" jdbcType="INTEGER" />
     <result column="ORG_ID" property="org_id" jdbcType="INTEGER" />
     <result column="CLIENT_ID" property="client_id" jdbcType="INTEGER" />
     <result column="username" property="userName" jdbcType="VARCHAR" />
-    <result column="gender" property="gender" jdbcType="CHAR" />
+    <result column="gender" property="gender" jdbcType="VARCHAR" />
     <result column="phone" property="phone" jdbcType="VARCHAR" />
     <result column="id_card" property="id_card" jdbcType="VARCHAR" />
-    <result column="birthday" property="birthday" jdbcType="TIMESTAMP" />
+    <result column="age" property="age" jdbcType="INTEGER" />
     <result column="checkin_date" property="checkin_date" jdbcType="TIMESTAMP" />
     <result column="checkout_date" property="checkout_date" jdbcType="TIMESTAMP" />
     <result column="imgset_dir" property="imgset_dir" jdbcType="VARCHAR" />
@@ -24,7 +24,7 @@
     <result column="secondguardian_wechat" property="secondguardian_wechat" jdbcType="VARCHAR" />
     <result column="health_state" property="health_state" jdbcType="VARCHAR" />
     <result column="DESCRIPTION" property="DESCRIPTION" jdbcType="VARCHAR" />
-    <result column="ISACTIVE" property="isActive" jdbcType="CHAR" />
+    <result column="ISACTIVE" property="ISACTIVE" jdbcType="CHAR" />
     <result column="CREATED" property="created" jdbcType="TIMESTAMP" />
     <result column="CREATEBY" property="createby" jdbcType="TINYINT" />
     <result column="UPDATED" property="updated" jdbcType="TIMESTAMP" />
@@ -33,7 +33,125 @@
   </resultMap>
   <sql id="Base_Column_List" >
 ID, ORG_ID, CLIENT_ID, username, gender, phone, id_card, birthday, checkin_date, checkout_date, imgset_dir, profile_photo, room_number, firstguardian_name, firstguardian_relationship, firstguardian_phone, firstguardian_wechat, secondguardian_name, secondguardian_relationship, secondguardian_phone, secondguardian_wechat, health_state, DESCRIPTION, ISACTIVE, CREATED, CREATEBY, UPDATED, UPDATEBY, REMOVE,
-
  </sql>
+
+  <select id="getOldNum" resultMap="BaseResultMap">
+    Select Sum(Case When age &lt;=60 Then 1 Else 0 End) As one, Sum(Case When age Between 60 And 65 Then 1 Else 0 End) As two,
+     Sum(Case When age Between 65 And 70 Then 1 Else 0 End) As three, Sum(Case When age &gt;=71 Then 1 Else 0 End) As four From oldperson_info
+  </select>
+
+  <select id="selectOldInfo" resultMap="BaseResultMap">
+    SELECT ID,username,phone,age,gender,health_state,DESCRIPTION
+    FROM oldperson_info
+  </select>
+
+  <select id="getSelectIDOld" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select
+    *
+    from oldperson_info
+    where ID = #{id,jdbcType=INTEGER}
+  </select>
+
+  <insert id="addold" parameterType="model.Old" >
+    insert into oldperson_info
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        ID,
+      </if>
+      <if test="org_id != null" >
+        ORG_ID,
+      </if>
+      <if test="client_id != null" >
+        CLIENT_ID,
+      </if>
+      <if test="userName != null" >
+        username,
+      </if>
+      <if test="gender != null" >
+        gender,
+      </if>
+      <if test="age != null" >
+        age,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="health_state != null" >
+        health_state,
+      </if>
+      <if test="DESCRIPTION != null" >
+        DESCRIPTION,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="org_id != null" >
+        #{org_id,jdbcType=INTEGER},
+      </if>
+      <if test="client_id != null" >
+        #{client_id,jdbcType=INTEGER},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        #{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null" >
+        #{age,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="health_state != null" >
+        #{health_state,jdbcType=VARCHAR},
+      </if>
+      <if test="DESCRIPTION != null" >
+        #{DESCRIPTION,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <delete id="deleteSelectIdOld" parameterType="java.lang.Integer" >
+    delete from oldperson_info
+    where ID = #{id,jdbcType=INTEGER}
+  </delete>
+
+  <update id="updateImg" parameterType="model.Old" >
+    update oldperson_info
+    <set >
+      <if test="imgset_dir != null" >
+        imgset_dir = #{imgset_dir,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=INTEGER}
+  </update>
+
+
+  <update id="updateold" parameterType="model.Old" >
+    update oldperson_info
+    <set >
+      <if test="userName != null" >
+        username=#{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="gender != null" >
+        gender=#{gender,jdbcType=VARCHAR},
+      </if>
+      <if test="age != null" >
+        age=#{age,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        phone=#{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="health_state != null" >
+        health_state=#{health_state,jdbcType=VARCHAR},
+      </if>
+      <if test="DESCRIPTION != null" >
+        DESCRIPTION= #{DESCRIPTION,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ID = #{id,jdbcType=INTEGER}
+  </update>
 
 </mapper>
